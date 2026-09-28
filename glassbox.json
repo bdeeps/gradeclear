@@ -1,0 +1,110 @@
+{
+  "slug": "gradeclear",
+  "box": 66,
+  "date": "2026-10-24",
+  "title": "GradeClear",
+  "question": "How does colour grading work?",
+  "hook": "Film a street, three faces and a sunset in 3D, then grade them yourself. A real grading pipeline runs on your graphics card: log footage through a 3D LUT, lift, gamma and gain wheels you can drag, live waveform, parade and vectorscope, a tracked power window, teal and orange, and HDR in nits.",
+  "thumbText": "HOW COLOUR GRADING WORKS",
+  "field": "film",
+  "minutes": 15,
+  "tags": [
+    "colour grading",
+    "color grading",
+    "colorist",
+    "LUT",
+    "log footage",
+    "Rec.709",
+    "vectorscope",
+    "waveform",
+    "teal and orange",
+    "HDR",
+    "DaVinci Resolve",
+    "digital intermediate",
+    "filmmaking",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Log keeps the light, a LUT makes it watchable",
+      "text": "Cinema cameras record log: a flat, grey file that keeps about 7.8 stops above a grey card, where a Rec.709 video file clips just 2.5 stops up. A 3D LUT, a cube of input and output colours, turns log into a normal picture."
+    },
+    {
+      "title": "Lift, gamma, gain, checked on scopes",
+      "text": "Three colour wheels move the shadows, mid-tones and highlights. Colourists trust scopes over their eyes: the waveform shows brightness from 0 to 100, the RGB parade shows balance, and the vectorscope shows hue, with every skin tone near one line at about 123°."
+    },
+    {
+      "title": "Matching shots",
+      "text": "Shots filmed hours apart, on different cameras, must cut together. Balance a grey chart until red, green and blue line up on the parade, match its level, then match saturation. Grading can fix colour and brightness, but not the direction of the light."
+    },
+    {
+      "title": "Secondaries change only part of the picture",
+      "text": "A qualifier selects a range of hue, saturation and brightness, like only the sky or one shirt. A power window is a soft shape, tracked to follow a moving face. Strong looks always hold skin tones out, so faces stay natural."
+    },
+    {
+      "title": "The look",
+      "text": "Teal and orange works because the two are complementary and skin sits on the orange side. Bleach bypass, film print emulation, day for night, sepia and noir are other classic looks, stored as creative LUTs and applied shot by shot."
+    },
+    {
+      "title": "Delivery: nits and gamuts",
+      "text": "SDR is graded for 100 nits of white, cinema screens about 48, and HDR TVs reach 1,000 or more, giving highlights far more room. Rec.709 covers about a third of visible colours on the CIE diagram, Rec.2020 about two thirds (nearer three quarters by other measures). Suites are dim and neutral grey so the colourist's eyes are not fooled."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Log",
+      "def": "A recording curve that gives each stop of light a similar share of code values, keeping huge dynamic range."
+    },
+    {
+      "term": "LUT",
+      "def": "A lookup table: a list (1D) or cube (3D) of input colours and the output colours they become."
+    },
+    {
+      "term": "Lift, gamma, gain",
+      "def": "Controls for the shadows, mid-tones and highlights of a picture."
+    },
+    {
+      "term": "Waveform",
+      "def": "A scope plotting the brightness of every column of the picture from 0 to 100."
+    },
+    {
+      "term": "Vectorscope",
+      "def": "A round scope showing hue as angle and saturation as distance from the centre."
+    },
+    {
+      "term": "Qualifier",
+      "def": "A selection made from a range of hue, saturation and brightness."
+    },
+    {
+      "term": "Power window",
+      "def": "A soft shape that limits where a correction applies, often tracked to a moving subject."
+    },
+    {
+      "term": "Nit",
+      "def": "A unit of screen brightness: one candela per square metre."
+    },
+    {
+      "term": "Gamut",
+      "def": "The range of colours a screen or standard can show."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "gradeclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

@@ -1,0 +1,965 @@
+{
+  "title": "The history of colour grading",
+  "tagline": "From women painting film frames with tiny brushes in Paris to colourists shaping HDR pictures on free software in Mumbai and Hollywood.",
+  "intro": "Colour grading means choosing the colours of a finished film: how warm, how dark, how bright, and what mood. For decades this was done by hand, with dyes, chemicals and a lab worker called a timer. Then telecines and computers took over, and today the same tools are free to anyone with a laptop.",
+  "eras": [
+    {
+      "id": "hand",
+      "name": "Colour by hand",
+      "from": 1895,
+      "to": 1935,
+      "color": "#c49bff",
+      "summary": "Before colour film, people painted, stencilled and dyed black-and-white prints to give them colour and mood."
+    },
+    {
+      "id": "lab",
+      "name": "The lab and the timer",
+      "from": 1930,
+      "to": 2000,
+      "color": "#ffb547",
+      "summary": "Colour film arrives, and lab timers balance red, green and blue printer lights scene by scene, with chemical tricks for special looks."
+    },
+    {
+      "id": "telecine",
+      "name": "Telecine and video colour",
+      "from": 1950,
+      "to": 2000,
+      "color": "#ff7a59",
+      "summary": "Machines turn film into television pictures, and colour correctors like da Vinci let operators adjust colour shot by shot."
+    },
+    {
+      "id": "di",
+      "name": "The digital intermediate",
+      "from": 1992,
+      "to": 2009,
+      "color": "#5ce1a9",
+      "summary": "Whole films are scanned into computers, graded digitally and printed back to film, in Hollywood and soon in Mumbai."
+    },
+    {
+      "id": "everyone",
+      "name": "HDR and grading for everyone",
+      "from": 2009,
+      "to": 2026,
+      "color": "#7aa2ff",
+      "summary": "Grading software becomes free, new standards bring wider colour and brighter HDR, and one film gets many graded versions."
+    }
+  ],
+  "events": [
+    {
+      "year": 1902,
+      "date": "1902",
+      "era": "hand",
+      "art": "palette",
+      "title": "A trip to the Moon, painted by hand",
+      "who": "Georges Méliès, with hand-colouring studios in Paris",
+      "where": "Paris, France",
+      "country": "France",
+      "text": "Méliès filmed A Trip to the Moon in black and white. Some prints were then coloured by hand, one tiny frame at a time, with fine brushes. A coloured print of the film was found in Spain in 1993 and restored.",
+      "why": "It shows that film makers wanted to control colour long before cameras could record it.",
+      "box": "",
+      "sources": [
+        5,
+        4
+      ]
+    },
+    {
+      "year": 1905,
+      "date": "c. 1905",
+      "era": "hand",
+      "art": "scissors",
+      "key": true,
+      "title": "Colour cut out with stencils",
+      "who": "Pathé Frères, with Segundo de Chomón",
+      "where": "Paris, France",
+      "country": "France",
+      "text": "Painting every frame by hand was slow. Pathé's workers traced parts of each frame, and a machine cut a stencil for each colour. Rollers soaked in dye then coloured many prints quickly, up to about six colours per film. It was called Pathécolor, later Pathéchrome.",
+      "why": "It was the first factory system for deciding what colour each part of a picture should be.",
+      "box": "secondary",
+      "sources": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "year": 1910,
+      "date": "c. 1910s to 1920s",
+      "era": "hand",
+      "art": "filmreel",
+      "title": "Blue for night, amber for lamplight",
+      "who": "Silent film laboratories",
+      "where": "Europe and USA",
+      "country": "Various",
+      "text": "Most silent films were not shown in plain black and white. Tinting dyed the whole frame one colour, such as blue for night or red for fire. Toning swapped the dark silver for a coloured chemical, so the shadows changed colour instead. By 1920, most films used one or both.",
+      "why": "It was the first colour grade: one mood colour for a whole scene.",
+      "box": "look",
+      "sources": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 1932,
+      "date": "July 1932",
+      "era": "lab",
+      "art": "colour",
+      "key": true,
+      "title": "Three strips of film, full colour",
+      "who": "Walt Disney and Technicolor",
+      "where": "Hollywood, USA",
+      "country": "USA",
+      "text": "Technicolor's new camera split the light with a prism onto three strips of black-and-white film, one each for red, green and blue. Disney's cartoon Flowers and Trees was the first film released in this full three-colour process. It won the first Academy Award for a cartoon short.",
+      "why": "Colour on screen became something you could design and control, not just add afterwards.",
+      "box": "",
+      "sources": [
+        9,
+        8
+      ]
+    },
+    {
+      "year": 1935,
+      "date": "June 1935",
+      "era": "lab",
+      "art": "cinema",
+      "title": "The first full colour feature",
+      "who": "Rouben Mamoulian, with Technicolor and colour consultant Natalie Kalmus",
+      "where": "Hollywood, USA",
+      "country": "USA",
+      "text": "Becky Sharp was the first feature film made entirely in three-strip Technicolor. Technicolor sent a colour consultant to every film, often Natalie Kalmus, to control how colours were used. She often pushed for calmer colours instead of a riot of bright ones.",
+      "why": "It made colour a job with its own expert, a bit like a colourist today.",
+      "box": "look",
+      "sources": [
+        10,
+        8,
+        11
+      ]
+    },
+    {
+      "year": 1937,
+      "date": "1937",
+      "era": "lab",
+      "art": "film",
+      "title": "India's first home-made colour film",
+      "who": "Ardeshir Irani and director Moti Gidwani",
+      "where": "Bombay, India",
+      "country": "India",
+      "text": "Kisan Kanya told the story of poor farmers. Irani bought the rights to an American process called Cinecolor, and the film was made and processed in India. It is described as India's first indigenously made colour film.",
+      "why": "Indian cinema began its long love affair with colour at home, not abroad.",
+      "box": "",
+      "sources": [
+        12,
+        13
+      ]
+    },
+    {
+      "year": 1950,
+      "date": "1950",
+      "era": "lab",
+      "art": "filmreel",
+      "key": true,
+      "title": "Colour on one strip of film",
+      "who": "Eastman Kodak",
+      "where": "Rochester, USA",
+      "country": "USA",
+      "text": "Eastmancolor put all three colour layers on a single strip of negative film. Any normal camera could now shoot in colour, without Technicolor's giant three-strip camera. By the late 1950s it had pushed out the older system around the world, including in India.",
+      "why": "One colour negative meant the lab, not the camera, became the place where colour was fine-tuned.",
+      "box": "primary",
+      "sources": [
+        14
+      ]
+    },
+    {
+      "year": 1950,
+      "date": "1950",
+      "era": "telecine",
+      "art": "tv",
+      "title": "A spot of light reads the film",
+      "who": "Cintel",
+      "where": "BBC Lime Grove Studios, London, UK",
+      "country": "UK",
+      "text": "To show films on television, a machine called a telecine turns each frame into a video signal. Cintel's flying spot telecine swept a bright dot of light across the film, and the first one was installed at the BBC in 1950. Later Rank Cintel machines became standard in post houses around the world.",
+      "why": "Telecine rooms were where colour correction for video was born.",
+      "box": "",
+      "sources": [
+        15
+      ]
+    },
+    {
+      "year": 1960,
+      "date": "1960",
+      "era": "lab",
+      "art": "flask",
+      "title": "Skipping a step in the bath",
+      "who": "Kazuo Miyagawa, for director Kon Ichikawa's Her Brother",
+      "where": "Kyoto, Japan",
+      "country": "Japan",
+      "text": "Miyagawa, a cinematographer who had studied chemistry, left out the bleach step when developing the film. Silver stayed in the picture, so colours looked washed out and blacks looked harder. The trick is called bleach bypass.",
+      "why": "It gave film makers a gritty, silvery look that is still copied in digital grading today.",
+      "box": "look",
+      "sources": [
+        16,
+        17
+      ]
+    },
+    {
+      "year": 1965,
+      "date": "c. mid-1960s",
+      "era": "lab",
+      "art": "crt",
+      "key": true,
+      "title": "The timer and the printer lights",
+      "who": "Film laboratory colour timers",
+      "where": "Hollywood, USA, and labs worldwide",
+      "country": "USA",
+      "text": "In a film lab, a colour timer set how much red, green and blue light printed each scene, in steps called printer points from 1 to 50. From about the mid-1960s, timers used a Hazeltine colour analyser: a screen that showed a positive picture from the negative. Their choices were punched onto paper tape that ran the printer.",
+      "why": "Balancing red, green and blue shot by shot is still the heart of grading today.",
+      "box": "match",
+      "sources": [
+        18,
+        19,
+        0
+      ]
+    },
+    {
+      "year": 1978,
+      "date": "1978",
+      "era": "telecine",
+      "art": "chip",
+      "title": "The telecine gets a memory",
+      "who": "Rank Cintel",
+      "where": "Ware, UK",
+      "country": "UK",
+      "text": "Rank Cintel's TOPSY system let an operator store colour settings for each scene. The telecine could then replay them as the film ran. Before this, operators had to twist knobs live as each shot went by.",
+      "why": "Remembering a correction for every shot is what makes shot matching possible.",
+      "box": "match",
+      "sources": [
+        0,
+        15
+      ]
+    },
+    {
+      "year": 1984,
+      "date": "1984",
+      "era": "telecine",
+      "art": "colorwheel",
+      "key": true,
+      "title": "da Vinci is born in Florida",
+      "who": "Video Tape Associates, then da Vinci Systems",
+      "where": "Florida, USA",
+      "country": "USA",
+      "text": "Engineers at a Florida post house called Video Tape Associates built a colour corrector called The Wiz from 1982. It could control a telecine and make primary and secondary colour changes, and fifteen were sold. In 1984 the team split off as da Vinci Systems, whose computer-controlled correctors were widely used with Rank Cintel telecines.",
+      "why": "It made colour correction a product you could buy, and gave the world the da Vinci name.",
+      "box": "primary",
+      "sources": [
+        21,
+        0
+      ]
+    },
+    {
+      "year": 1992,
+      "date": "September 1992",
+      "era": "di",
+      "art": "digital",
+      "key": true,
+      "title": "Film becomes numbers in log",
+      "who": "Kodak Cineon",
+      "where": "Rochester, USA",
+      "country": "USA",
+      "text": "Kodak's Cineon system scanned film into computer files, 10 bits per colour. Instead of storing light in straight steps, it stored it on a log curve, like the density of the negative. In 1993 it was used to scan and restore Disney's Snow White at 4K.",
+      "why": "Log files, the flat grey footage colourists start from, trace back to Cineon.",
+      "box": "log",
+      "sources": [
+        25,
+        26
+      ]
+    },
+    {
+      "year": 1995,
+      "date": "1995 and 1998",
+      "era": "lab",
+      "art": "film",
+      "title": "Silver keeps the shadows grim",
+      "who": "David Fincher and Darius Khondji (Seven); Steven Spielberg and Janusz Kamiński (Saving Private Ryan)",
+      "where": "USA",
+      "country": "USA",
+      "text": "Some release prints of Seven were made with Deluxe's CCE, a process that leaves silver in the print for deep blacks and dull colours. For Saving Private Ryan, Technicolor's ENR process drained most of the colour to look like 1940s newsreels. Both are bleach-bypass-style looks.",
+      "why": "These films made the desaturated war-and-crime look famous, and digital graders copy it with a few sliders.",
+      "box": "look",
+      "sources": [
+        23,
+        24,
+        16
+      ]
+    },
+    {
+      "year": 1996,
+      "date": "1996",
+      "era": "telecine",
+      "art": "tv",
+      "title": "A sharper film scanner",
+      "who": "Philips (later Thomson and DFT)",
+      "where": "Germany",
+      "country": "Germany",
+      "text": "The Spirit DataCine used a line of sensors instead of a flying spot to read film. It could send pictures out as data files as well as video. It soon became the scanner used for the first digital intermediates.",
+      "why": "Good scans made it possible to grade a whole feature film on a computer.",
+      "box": "",
+      "sources": [
+        27,
+        15
+      ]
+    },
+    {
+      "year": 1998,
+      "date": "October 1998",
+      "era": "di",
+      "art": "palette",
+      "title": "Colour creeps into a grey town",
+      "who": "Gary Ross, with Cinesite",
+      "where": "Los Angeles, USA",
+      "country": "USA",
+      "text": "In Pleasantville, a black-and-white TV town slowly turns to colour. The film was shot in colour, and about 163,000 frames were scanned so artists could drain colour from some parts of the frame and keep it in others. It was the first new feature with most of its footage processed digitally.",
+      "why": "Choosing colour for just one part of a frame is what secondary grading does.",
+      "box": "secondary",
+      "sources": [
+        28,
+        26
+      ]
+    },
+    {
+      "year": 2000,
+      "date": "December 2000",
+      "era": "di",
+      "art": "colorwheel",
+      "key": true,
+      "title": "A whole film graded on a computer",
+      "who": "Joel and Ethan Coen, Roger Deakins and Cinesite",
+      "where": "Los Angeles, USA",
+      "country": "USA",
+      "text": "O Brother, Where Art Thou? was shot in lush green Mississippi, but the story needed a dry, dusty, golden look. Every frame was scanned, the greens were pushed towards yellow digitally, and the result was printed back to film. It is widely cited as the first Hollywood feature to go through a full digital intermediate.",
+      "why": "From here on, a film's colour could be reshaped as freely as a photo.",
+      "box": "look",
+      "sources": [
+        26,
+        29,
+        30
+      ]
+    },
+    {
+      "year": 2001,
+      "date": "2001",
+      "era": "di",
+      "art": "palette",
+      "title": "A Paris of greens and golds",
+      "who": "Jean-Pierre Jeunet and cinematographer Bruno Delbonnel",
+      "where": "Paris, France",
+      "country": "France",
+      "text": "Amélie used a digital intermediate to give Paris a warm, storybook glow. Its rich greens, reds and golds are one of the best known looks in modern film. Colourists still name it when describing a warm, magical style.",
+      "why": "It showed audiences that a grade could be a film's personality.",
+      "box": "look",
+      "sources": [
+        31,
+        26
+      ]
+    },
+    {
+      "year": 2003,
+      "date": "2003",
+      "era": "di",
+      "art": "studio",
+      "key": true,
+      "title": "India's first fully graded film",
+      "who": "Prime Focus",
+      "where": "Mumbai, India",
+      "country": "India",
+      "text": "Prime Focus began digital work on effects scenes in 2001. In 2003 it graded all of Qayamat, described as the first entirely colour graded film in India. In 2004 it set up its DI suite inside the Adlabs film lab, and went on to grade dozens of Hindi films.",
+      "why": "Digital grading arrived in India only three years after Hollywood's first full DI.",
+      "box": "primary",
+      "sources": [
+        32,
+        33
+      ]
+    },
+    {
+      "year": 2005,
+      "date": "August 2005",
+      "era": "di",
+      "art": "film",
+      "title": "One film, six master negatives",
+      "who": "Ketan Mehta, with Prime Focus",
+      "where": "Mumbai, India",
+      "country": "India",
+      "text": "Mangal Pandey: The Rising was one of India's most expensive films of its time. It was released in Hindi and English around the world. Prime Focus used a digital intermediate to keep its period look consistent across all six master negatives.",
+      "why": "Big Indian films began to plan their look for the grading suite from the start.",
+      "box": "match",
+      "sources": [
+        32,
+        34
+      ]
+    },
+    {
+      "year": 2005,
+      "date": "20 July 2005",
+      "era": "di",
+      "art": "projector",
+      "title": "Rules for digital cinema",
+      "who": "Digital Cinema Initiatives (seven Hollywood studios)",
+      "where": "Hollywood, USA",
+      "country": "USA",
+      "text": "DCI released version 1.0 of its Digital Cinema System Specification. It set how digital films are packaged and projected, including the DCI-P3 range of colours and a white of 48 nits on screen. Cinemas everywhere, including in India, followed these rules.",
+      "why": "Colourists now had one standard cinema picture to grade for.",
+      "box": "delivery",
+      "sources": [
+        35,
+        36
+      ]
+    },
+    {
+      "year": 2009,
+      "date": "2009",
+      "era": "everyone",
+      "art": "chip",
+      "title": "Blackmagic buys da Vinci",
+      "who": "Blackmagic Design",
+      "where": "Melbourne, Australia",
+      "country": "Australia",
+      "text": "Blackmagic Design, a company from Australia, bought da Vinci Systems. At the time, Resolve ran on expensive special hardware and had only about 100 users. Blackmagic soon made it run on ordinary Mac and Windows computers.",
+      "why": "It was the first step towards putting a Hollywood grading tool on anyone's laptop.",
+      "box": "",
+      "sources": [
+        22,
+        21
+      ]
+    },
+    {
+      "year": 2010,
+      "date": "14 March 2010",
+      "era": "everyone",
+      "art": "colorwheel",
+      "title": "Teal and orange everywhere",
+      "who": "Todd Miro, blogger",
+      "where": "Online",
+      "country": "USA",
+      "text": "Many 2000s blockbusters pushed skin towards orange and shadows and skies towards teal. The two colours sit on opposite sides of the colour wheel, so faces pop out. In 2010 a much-shared blog post by Todd Miro begged Hollywood to stop overdoing it.",
+      "why": "It made millions of viewers notice colour grading for the first time.",
+      "box": "look",
+      "sources": [
+        37,
+        0
+      ]
+    },
+    {
+      "year": 2011,
+      "date": "2011",
+      "era": "everyone",
+      "art": "pixels",
+      "key": true,
+      "title": "Pro grading, free for everyone",
+      "who": "Blackmagic Design",
+      "where": "Melbourne, Australia",
+      "country": "Australia",
+      "text": "Blackmagic released DaVinci Resolve 8 Lite, a free version with most of the grading tools. Students, YouTubers and small studios could now use the same software as big films. Users grew from about 100 in 2009 to over 2 million by 2019.",
+      "why": "Colour grading went from a rare, costly job to a skill anyone could learn.",
+      "box": "primary",
+      "sources": [
+        22
+      ]
+    },
+    {
+      "year": 2012,
+      "date": "August 2012",
+      "era": "everyone",
+      "art": "tv",
+      "title": "A much bigger box of colours",
+      "who": "International Telecommunication Union (ITU)",
+      "where": "Geneva, Switzerland",
+      "country": "Switzerland",
+      "text": "Rec. 2020 set the rules for ultra high definition TV. Its colour gamut, the range of colours a screen can show, is far wider than older HD TV. Few screens can show all of it yet, so it acts as a roomy container for the future.",
+      "why": "Graders now deliver the same film in several gamuts, from HD TV to UHD.",
+      "box": "delivery",
+      "sources": [
+        38,
+        39
+      ]
+    },
+    {
+      "year": 2014,
+      "date": "2014",
+      "era": "everyone",
+      "art": "eye",
+      "key": true,
+      "title": "High dynamic range arrives",
+      "who": "Dolby Laboratories and SMPTE",
+      "where": "San Francisco, USA",
+      "country": "USA",
+      "text": "Dolby designed a new curve called PQ, built around how our eyes see brightness, and SMPTE published it as ST 2084 in 2014. It can describe light up to 10,000 nits, about a hundred times brighter than a normal TV picture. Dolby Vision, the first HDR format, was introduced the same year.",
+      "why": "Colourists now grade two versions of many films: one for normal screens and one for bright HDR screens.",
+      "box": "delivery",
+      "sources": [
+        40,
+        41
+      ]
+    },
+    {
+      "year": 2014,
+      "date": "December 2014",
+      "era": "everyone",
+      "art": "studio",
+      "title": "One colour language for every camera",
+      "who": "Academy of Motion Picture Arts and Sciences",
+      "where": "Los Angeles, USA",
+      "country": "USA",
+      "text": "Every camera records colour in its own way, which makes mixing them hard. ACES gives every shot a shared, huge colour space whose widest version holds every colour the eye can see. Version 1.0 came out in December 2014, after about ten years of work by around 50 experts.",
+      "why": "It lets a film's colour survive from camera to grading to cinema without getting lost.",
+      "box": "log",
+      "sources": [
+        42,
+        43
+      ]
+    },
+    {
+      "year": 2015,
+      "date": "May 2015",
+      "era": "everyone",
+      "art": "projector",
+      "title": "A bold, bright apocalypse",
+      "who": "George Miller and colourist Eric Whipp",
+      "where": "Australia",
+      "country": "Australia",
+      "text": "Most end-of-the-world films looked grey and washed out. For Mad Max: Fury Road, Miller asked for rich, graphic colour by day and deep blue nights. Whipp graded and sharpened shots one by one to get that comic-book punch.",
+      "why": "It is one of the best known examples of a grade breaking the genre's rules.",
+      "box": "look",
+      "sources": [
+        46
+      ]
+    },
+    {
+      "year": 2016,
+      "date": "2015 to 2016",
+      "era": "everyone",
+      "art": "tv",
+      "title": "HDR that works for live TV",
+      "who": "BBC and NHK",
+      "where": "London, UK and Tokyo, Japan",
+      "country": "UK and Japan",
+      "text": "The BBC and Japan's NHK designed hybrid log gamma (HLG), an HDR curve that still looks fine on older TVs. Japan published it as a standard in July 2015. In July 2016 the ITU put both HLG and PQ into its Rec. 2100 standard.",
+      "why": "Broadcasters could now send one HDR signal to everyone, which matters for live sport and news.",
+      "box": "delivery",
+      "sources": [
+        44,
+        45
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Factory stencil colouring of film",
+      "value": "c. 1905",
+      "who": "Pathé Frères (Pathécolor), France"
+    },
+    {
+      "label": "Film released in three-strip Technicolor",
+      "value": "1932",
+      "who": "Flowers and Trees, Walt Disney, USA"
+    },
+    {
+      "label": "Feature film entirely in three-strip Technicolor",
+      "value": "1935",
+      "who": "Becky Sharp, USA"
+    },
+    {
+      "label": "Indigenously made colour film in India",
+      "value": "1937",
+      "who": "Kisan Kanya, Ardeshir Irani, India"
+    },
+    {
+      "label": "Widely used single-strip colour negative",
+      "value": "1950",
+      "who": "Eastmancolor, Kodak, USA"
+    },
+    {
+      "label": "Flying spot telecine",
+      "value": "1950",
+      "who": "Cintel, at the BBC, UK"
+    },
+    {
+      "label": "Bleach bypass",
+      "value": "1960",
+      "who": "Kazuo Miyagawa, Japan"
+    },
+    {
+      "label": "Hollywood feature through a full digital intermediate (widely cited)",
+      "value": "2000",
+      "who": "O Brother, Where Art Thou?, Cinesite, USA"
+    },
+    {
+      "label": "Entirely colour graded film in India (as described by Prime Focus)",
+      "value": "2003",
+      "who": "Qayamat, Prime Focus, India"
+    },
+    {
+      "label": "HDR video format",
+      "value": "2014",
+      "who": "Dolby Vision, Dolby Laboratories, USA"
+    }
+  ],
+  "people": [
+    {
+      "name": "Segundo de Chomón",
+      "life": "1871 – 1929",
+      "role": "Film maker and colour pioneer",
+      "from": "Spain",
+      "note": "Ran Pathé's stencil colouring shop and helped develop Pathécolor."
+    },
+    {
+      "name": "Natalie Kalmus",
+      "life": "1878 – 1965",
+      "role": "Technicolor colour consultant",
+      "from": "USA",
+      "note": "Advised on the colours of Technicolor films for years, often pushing for calmer palettes."
+    },
+    {
+      "name": "Ardeshir Irani",
+      "life": "1886 – 1969",
+      "role": "Producer and director",
+      "from": "India",
+      "note": "Made India's first sound film, Alam Ara, and produced Kisan Kanya, India's first home-made colour film."
+    },
+    {
+      "name": "Kazuo Miyagawa",
+      "life": "1908 – 1999",
+      "role": "Cinematographer",
+      "from": "Japan",
+      "note": "Invented bleach bypass for the 1960 film Her Brother."
+    },
+    {
+      "name": "Roger Deakins",
+      "life": "born 1949",
+      "role": "Cinematographer",
+      "from": "England",
+      "note": "Shot O Brother, Where Art Thou?, the film widely cited as Hollywood's first full digital intermediate."
+    },
+    {
+      "name": "Stefan Sonnenfeld",
+      "life": "living",
+      "role": "Colourist and co-founder of Company 3",
+      "from": "USA",
+      "note": "Graded blockbusters such as 300, Star Trek and the Transformers films."
+    },
+    {
+      "name": "Jill Bogdanowicz",
+      "life": "living",
+      "role": "Colourist at Company 3",
+      "from": "USA",
+      "note": "Won the 2020 HPA Award for colour grading a feature film, for Joker."
+    },
+    {
+      "name": "Eric Whipp",
+      "life": "living",
+      "role": "Colourist",
+      "from": "Canada, working in Australia",
+      "note": "Graded Mad Max: Fury Road shot by shot for a bold, saturated look."
+    },
+    {
+      "name": "Namit Malhotra",
+      "life": "born 1976",
+      "role": "Founder of Prime Focus",
+      "from": "India",
+      "note": "His company brought digital intermediate grading to Indian films in 2003."
+    }
+  ],
+  "series": [
+    {
+      "id": "nits",
+      "title": "How bright a graded picture can be",
+      "unit": "nits",
+      "log": true,
+      "after": "everyone",
+      "caption": "Peak white for cinema standards and HDR, in nits (candelas per square metre). HDR raised the ceiling more than a hundredfold.",
+      "points": [
+        {
+          "year": 2005,
+          "value": 48,
+          "label": "DCI digital cinema reference white: 48 nits"
+        },
+        {
+          "year": 2014,
+          "value": 108,
+          "label": "Dolby Cinema (HDR cinema): 108 nits"
+        },
+        {
+          "year": 2014,
+          "value": 10000,
+          "label": "PQ (SMPTE ST 2084) ceiling: 10,000 nits"
+        },
+        {
+          "year": 2018,
+          "value": 4000,
+          "label": "Dolby Vision mastering monitors: up to 4,000 nits"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "In a film lab, about 25 printer points was normal, and roughly 7 to 12 points made a one stop change in brightness.",
+    "By 1910, Pathé employed over 400 women to cut and colour film stencils at its factory near Paris.",
+    "Stencil colouring lasted surprisingly long: it was still used in a few films in 1930 and even later.",
+    "The first da Vinci colour corrector, called The Wiz, was built by a Florida post house, and only fifteen were made.",
+    "DaVinci Resolve went from about 100 users in 2009 to over 2 million by 2019.",
+    "In 2019, DaVinci Resolve was used on five of the eight Best Picture nominees at the Oscars.",
+    "ACES's widest colour space is big enough to hold every colour a human eye can see, and more.",
+    "Teal and orange are popular because teal sits opposite skin tones on the colour wheel, so faces stand out.",
+    "Dolby Cinema's 108 nits is more than twice as bright as the 48 nits of a normal digital cinema."
+  ],
+  "sources": [
+    {
+      "title": "Color grading",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Color_grading"
+    },
+    {
+      "title": "Pathécolor",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Path%C3%A9color"
+    },
+    {
+      "title": "Pathécolor / Pathéchrome / stencil coloring",
+      "publisher": "Timeline of Historical Film Colors (University of Zurich)",
+      "url": "https://filmcolors.org/timeline-entry/1218/"
+    },
+    {
+      "title": "Segundo de Chomón",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Segundo_de_Chom%C3%B3n"
+    },
+    {
+      "title": "Film101: Silent Cinema in Color",
+      "publisher": "George Eastman Museum",
+      "url": "https://medium.com/george-eastman-museum/film101-silent-cinema-in-color-71753d54cbb2"
+    },
+    {
+      "title": "A Trip to the Moon",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/A_Trip_to_the_Moon"
+    },
+    {
+      "title": "Film tinting",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Film_tinting"
+    },
+    {
+      "title": "Fantasia of Color in Early Cinema",
+      "publisher": "San Francisco Silent Film Festival",
+      "url": "https://silentfilm.org/fantasia-of-color-in-early-cinema/"
+    },
+    {
+      "title": "Technicolor",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Technicolor"
+    },
+    {
+      "title": "Flowers and Trees",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Flowers_and_Trees"
+    },
+    {
+      "title": "Becky Sharp (film)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Becky_Sharp_(film)"
+    },
+    {
+      "title": "Natalie Kalmus",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Natalie_Kalmus"
+    },
+    {
+      "title": "Kisan Kanya",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kisan_Kanya"
+    },
+    {
+      "title": "Ardeshir Irani",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ardeshir_Irani"
+    },
+    {
+      "title": "Eastmancolor",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eastmancolor"
+    },
+    {
+      "title": "Cintel",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cintel"
+    },
+    {
+      "title": "Bleach bypass",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bleach_bypass"
+    },
+    {
+      "title": "Kazuo Miyagawa",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kazuo_Miyagawa"
+    },
+    {
+      "title": "Hazeltine Color Film Analyzer brochure (September 1969)",
+      "publisher": "Internet Archive",
+      "url": "https://archive.org/details/bitsavers_hazeltineHalyzerBrochureSep69_2848682"
+    },
+    {
+      "title": "Film color timing",
+      "publisher": "Lowepost",
+      "url": "https://lowepost.com/insider/colorgrading/film-color-timing-r66/"
+    },
+    {
+      "title": "The origins of colour grading",
+      "publisher": "RedShark News",
+      "url": "https://www.redsharknews.com/the-origins-of-grading"
+    },
+    {
+      "title": "da Vinci Systems",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Da_Vinci_Systems"
+    },
+    {
+      "title": "DaVinci Resolve",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DaVinci_Resolve"
+    },
+    {
+      "title": "Deluxe Color Contrast Enhancement (1995 to c. 2012)",
+      "publisher": "Film Atlas",
+      "url": "https://www.filmatlas.com/entry/622"
+    },
+    {
+      "title": "Janusz Kamiński Shoots Spielberg's Saving Private Ryan",
+      "publisher": "American Society of Cinematographers",
+      "url": "https://theasc.com/articles/saving-private-ryan-cinematography-kaminski"
+    },
+    {
+      "title": "Cineon",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cineon"
+    },
+    {
+      "title": "Digital intermediate",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Digital_intermediate"
+    },
+    {
+      "title": "Spirit DataCine",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Spirit_DataCine"
+    },
+    {
+      "title": "Pleasantville (film)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pleasantville_(film)"
+    },
+    {
+      "title": "O Brother, Where Art Thou?",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/O_Brother,_Where_Art_Thou%3F"
+    },
+    {
+      "title": "Roger Deakins",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Roger_Deakins"
+    },
+    {
+      "title": "Amélie",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Am%C3%A9lie"
+    },
+    {
+      "title": "Digital Intermediate (DI): The Great Visual Enabler",
+      "publisher": "Animation World Network",
+      "url": "https://www.awn.com/vfxworld/digital-intermediate-di-great-visual-enabler"
+    },
+    {
+      "title": "Namit Malhotra",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Namit_Malhotra"
+    },
+    {
+      "title": "Mangal Pandey: The Rising",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mangal_Pandey:_The_Rising"
+    },
+    {
+      "title": "Digital Cinema Initiatives",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Digital_Cinema_Initiatives"
+    },
+    {
+      "title": "DCI-P3",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/DCI-P3"
+    },
+    {
+      "title": "Teal and Orange: Hollywood, Please Stop the Madness",
+      "publisher": "Into the Abyss (Todd Miro)",
+      "url": "http://theabyssgazes.blogspot.com/2010/03/teal-and-orange-hollywood-please-stop.html"
+    },
+    {
+      "title": "Rec. 2020",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rec._2020"
+    },
+    {
+      "title": "Recommendation ITU-R BT.2020",
+      "publisher": "International Telecommunication Union",
+      "url": "https://www.itu.int/rec/R-REC-BT.2020"
+    },
+    {
+      "title": "Perceptual quantizer",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Perceptual_quantizer"
+    },
+    {
+      "title": "Dolby Vision",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dolby_Vision"
+    },
+    {
+      "title": "Academy Color Encoding System",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Academy_Color_Encoding_System"
+    },
+    {
+      "title": "ACES",
+      "publisher": "Academy of Motion Picture Arts and Sciences",
+      "url": "https://www.oscars.org/science-technology/sci-tech-projects/aces"
+    },
+    {
+      "title": "Hybrid log–gamma",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hybrid_log%E2%80%93gamma"
+    },
+    {
+      "title": "Recommendation ITU-R BT.2100",
+      "publisher": "International Telecommunication Union",
+      "url": "https://www.itu.int/rec/R-REC-BT.2100"
+    },
+    {
+      "title": "Mad Max: Fury Road colorist Eric Whipp gets graphic",
+      "publisher": "postPerspective",
+      "url": "https://postperspective.com/mad-max-fury-road-colorist-eric-whipp/"
+    },
+    {
+      "title": "Stefan Sonnenfeld",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Stefan_Sonnenfeld"
+    },
+    {
+      "title": "Jill Bogdanowicz",
+      "publisher": "Company 3",
+      "url": "https://www.company3.com/artists/jill-bogdanowicz/"
+    },
+    {
+      "title": "Company 3 Takes HPA Awards in Commercial, Feature Categories",
+      "publisher": "Company 3",
+      "url": "https://www.company3.com/2020_hpa_awards/"
+    }
+  ]
+}

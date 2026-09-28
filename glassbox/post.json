@@ -1,0 +1,126 @@
+{
+  "slug": "gradeclear",
+  "box": 66,
+  "question": "How does colour grading work?",
+  "url": "https://glassbox-production-fd52.up.railway.app/e/gradeclear/",
+  "app": "https://glassbox-production-fd52.up.railway.app/gradeclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "From women painting film frames with tiny brushes in Paris to colourists shaping HDR pictures on free software in Mumbai and Hollywood.\n\n1905: Colour cut out with stencils\n1932: Three strips of film, full colour\n1950: Colour on one strip of film\n1965: The timer and the printer lights\n1984: da Vinci is born in Florida\n1992: Film becomes numbers in log\n\nThe full story, with 29 moments, sources and charts: glassbox-production-fd52.up.railway.app/e/gradeclear/history (link in bio)\n\nThen play with how it works: glassbox-production-fd52.up.railway.app/gradeclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #colourgrading #colorgrading #colorist #lut #logfootage #rec709 #history",
+      "youtube": {
+        "title": "The history of colour grading in 45 seconds #shorts",
+        "description": "From women painting film frames with tiny brushes in Paris to colourists shaping HDR pictures on free software in Mumbai and Hollywood.\n\n1905 · Colour cut out with stencils (Pathé Frères, with Segundo de Chomón)\n1932 · Three strips of film, full colour (Walt Disney and Technicolor)\n1950 · Colour on one strip of film (Eastman Kodak)\n1965 · The timer and the printer lights (Film laboratory colour timers)\n1984 · da Vinci is born in Florida (Video Tape Associates, then da Vinci Systems)\n1992 · Film becomes numbers in log (Kodak Cineon)\n\n▶ Full history: https://glassbox-production-fd52.up.railway.app/e/gradeclear/history/\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/gradeclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "How does colour grading work?\n\nFilm a street, three faces and a sunset in 3D, then grade them yourself. A real grading pipeline runs on your graphics card: log footage through a 3D LUT, lift, gamma and gain wheels you can drag, live waveform, parade and vectorscope, a tracked power window, teal and orange, and HDR in nits.\n\n→ Cinema cameras record log: a flat, grey picture that keeps every stop of light.\n→ A 3D LUT moves every colour to its place, and the flat file becomes a Rec.709 picture.\n→ Lift moves the blacks, gamma the middle, gain the whites: the waveform follows every turn.\n→ Three very different skin tones, one line on the vectorscope: the skin-tone line.\n→ Two cameras, two times of day: balance the grey chart, match exposure, and the cut disappears.\n\nPlay with it yourself. It's free and open source: glassbox-production-fd52.up.railway.app/gradeclear (link in bio)\n\nBox No. 066 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #colourgrading #colorgrading #colorist #lut #logfootage #rec709 #vectorscope #waveform #tealandorange",
+    "carousel": "Swipe through: How does colour grading work?\n\nFilm a street, three faces and a sunset in 3D, then grade them yourself. A real grading pipeline runs on your graphics card: log footage through a 3D LUT, lift, gamma and gain wheels you can drag, live waveform, parade and vectorscope, a tracked power window, teal and orange, and HDR in nits.\n\nSave this for later, then play with the interactive version at glassbox-production-fd52.up.railway.app/gradeclear (link in bio).\n\nBox No. 066 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #colourgrading #colorgrading #colorist #lut #logfootage #rec709",
+    "youtube": {
+      "title": "How does colour grading work? #shorts",
+      "description": "Film a street, three faces and a sunset in 3D, then grade them yourself. A real grading pipeline runs on your graphics card: log footage through a 3D LUT, lift, gamma and gain wheels you can drag, live waveform, parade and vectorscope, a tracked power window, teal and orange, and HDR in nits.\n\n▶ Play with it: https://glassbox-production-fd52.up.railway.app/e/gradeclear/\n⌘ Source code (MIT): https://github.com/bdeeps/gradeclear\n\nBox No. 066 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "How does colour grading work? (interactive explainer)",
+      "description": "Film a street, three faces and a sunset in 3D, then grade them yourself. A real grading pipeline runs on your graphics card: log footage through a 3D LUT, lift, gamma and gain wheels you can drag, live waveform, parade and vectorscope, a tracked power window, teal and orange, and HDR in nits.\n\n▶ Play with the interactive version: https://glassbox-production-fd52.up.railway.app/e/gradeclear/\n⌘ Source code (MIT): https://github.com/bdeeps/gradeclear\n\nIn this video:\n• Log keeps the light, a LUT makes it watchable. Cinema cameras record log: a flat, grey file that keeps about 7.8 stops above a grey card, where a Rec.709 video file clips just 2.5 stops up.\n• Lift, gamma, gain, checked on scopes. Three colour wheels move the shadows, mid-tones and highlights.\n• Matching shots. Shots filmed hours apart, on different cameras, must cut together.\n• Secondaries change only part of the picture. A qualifier selects a range of hue, saturation and brightness, like only the sky or one shirt.\n• The look. Teal and orange works because the two are complementary and skin sits on the orange side.\n• Delivery: nits and gamuts. SDR is graded for 100 nits of white, cinema screens about 48, and HDR TVs reach 1,000 or more, giving highlights far more room.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "How does colour grading work?\n\nFilm a street, three faces and a sunset in 3D, then grade them yourself.\n\nPlay with it: https://glassbox-production-fd52.up.railway.app/e/gradeclear/",
+    "linkedin": "How does colour grading work?\n\nFilm a street, three faces and a sunset in 3D, then grade them yourself. A real grading pipeline runs on your graphics card: log footage through a 3D LUT, lift, gamma and gain wheels you can drag, live waveform, parade and vectorscope, a tracked power window, teal and orange, and HDR in nits.\n\n1. Log keeps the light, a LUT makes it watchable\n2. Lift, gamma, gain, checked on scopes\n3. Matching shots\n4. Secondaries change only part of the picture\n5. The look\n6. Delivery: nits and gamuts\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. 066 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox-production-fd52.up.railway.app/e/gradeclear/\nCode: https://github.com/bdeeps/gradeclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-09-28T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-09-28T03:35:22.059Z"
+}
